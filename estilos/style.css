@@ -19,6 +19,20 @@ header {
     padding: 80px 0;
 
 }
+.logo{
+
+    position: relative;
+    left: 30px;
+
+
+}
+
+.secciones li a{
+
+    margin-left: 20px;
+
+
+}
 
 body {
     background-color: rgb(223, 208, 210);
@@ -37,7 +51,7 @@ footer{
 
 .class-center {
     color: rgb(100, 112, 124);
-    font-family: 'Berkshire Swash', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -47,7 +61,7 @@ footer{
 
 .tipografia {
     color: rgb(100, 112, 124);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     position: relative;
     bottom: 120px;
@@ -66,6 +80,27 @@ footer{
 
 }
 
+.postres{
+
+    font-size: 50px;
+    margin-left: 230px;
+
+}
+
+.texto__tortasindex ul{
+    transition-property: all;
+    transition-duration: 1s;
+
+
+
+}
+
+.texto__tortaindex ul:hover{
+
+
+    background: rgb(193, 171, 204);
+
+}
 
 @media screen and (min-width: 577px) {
 
@@ -287,7 +322,7 @@ footer{
     padding: 20px;
     font-size: 35px;
     text-align: center;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(100, 112, 124);
 }
 
@@ -295,7 +330,7 @@ footer{
     padding: 30px;
     font-size: 35px;
     text-align: center;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(212, 29, 29);
 
 }
@@ -305,7 +340,7 @@ footer{
     padding: 100px;
     font-size: 35px;
     color: rgb(155, 151, 151);
-    font-family: 'Berkshire Swash', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     text-align: justify;
 }
@@ -319,13 +354,13 @@ footer{
     display: block;
     position: relative;
     bottom: 50px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .class__p {
     color: rgb(212, 29, 29);
     font-size: 35px;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     position: relative;
     bottom: 75px;
@@ -517,6 +552,38 @@ footer{
 }
 
 
+
+.orden__textos{
+
+    transition-property: all;
+    transition-duration: 2s;
+    
+  
+
+}
+
+/*.texto__torta1 li {
+    width: 100px;
+    transition-property: background;
+    transition-duration: 2s;
+    transform: scale(1);
+
+
+}
+
+.texto__torta1:hover{
+    
+    background: gold;
+
+}/*/
+
+.orden__textos:hover{
+
+    background: rgb(193, 171, 204);
+
+
+}
+
 @media (min-width: 577px){
 
     .tortas__ofertas {
@@ -529,13 +596,23 @@ footer{
 
     .texto__torta1 {
 
-
+        
         position: relative;
         left: 45px;
         font-size: 30px;
         color: rgb(100, 112, 124);
+        transition-property: background;
+        transition-duration: infinite;
+
     
-    
+    }
+
+    .texto__torta1:hover{
+
+        background: rgb(143, 91, 70);
+
+
+
     }
     
     .texto__torta2 {
@@ -694,71 +771,79 @@ footer{
 .titulos__torta1 ul {
     color: rgb(77, 80, 79);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
     position: relative;
     bottom: 850px;
-
+    transition-property: all;
+    transition-duration: 1s;
     font-size: 30px;
 
 
 }
 
+.titulos__torta1 ul:hover{
+
+    background: rgb(193, 171, 204);
+}
 .texto__tortaoreo {
     position: relative;
-    left: 250px;
+  
 
 
 
 }
 
-.texto__tortadulce {
+.dulce{
 
     position: relative;
     left: 70px;
 
 }
 
-.texto__shower {
+.baby {
 
     position: relative;
-    right: 155px;
+    left: 130px;
 
 }
+
 
 .titulos__torta2 ul {
 
 
     color: rgb(77, 80, 79);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     position: relative;
     bottom: 450px;
-
+    transition-property: all;
+    transition-duration: 1s;
     font-size: 30px;
 
 
 }
 
-.texto__tematica {
+.titulos__torta2 ul:hover{
+
+    background: rgb(193, 171, 204);
+
+}
+
+.helado {
 
     position: relative;
-    left: 160px;
+    right: 50px;
 
 
 }
 
-.texto__tortachocolate {
+
+
+.frutal {
 
     position: relative;
-    right: 80px;
-
-
-}
-
-.texto__tortafrutal {
-
-    position: relative;
-    right: 220px;
+    left: 50px;
 
 }
 
