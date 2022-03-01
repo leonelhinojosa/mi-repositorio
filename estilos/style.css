@@ -29,8 +29,8 @@ header {
 
 .secciones li a{
 
-    margin-left: 20px;
-
+    position: relative;
+    right: 100px;
 
 }
 
@@ -99,6 +99,27 @@ footer{
 
 
     background: rgb(193, 171, 204);
+
+}
+
+.bañoganache{
+
+    margin-left: 270px;
+}
+
+
+.carousel{
+
+margin-top: 300px;
+
+
+}
+
+.tortas{
+
+    position: relative;
+    left: 50px;
+
 
 }
 
@@ -529,7 +550,7 @@ footer{
 
 
 
-.tortas__ofertas{
+/*.tortas__ofertas{
 
     margin-left: 10px;
 
@@ -547,13 +568,14 @@ footer{
 @keyframes animacion{
     
     100%{
-        height: 450px;
+        height: 550px;
+        width: 550px;
 
     }
 
     
 
-}
+}/*/
 
 
 .torta__kinder {
@@ -611,6 +633,14 @@ footer{
 
 
 }
+.carousel2{
+
+    position: relative;
+    bottom: 130px;
+    left: 60px;
+
+}
+
 
 @media (min-width: 577px){
 
