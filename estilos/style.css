@@ -611,12 +611,35 @@ margin-top: 300px;
 
 }
 
+
+.texto__torta1{
+
+    animation-duration: 3s;
+    animation-name: animacionoferta;
+
+
+
+}
+
+@keyframes animacionoferta {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
 .texto__torta1 li {
     width: 100px;
     transition-property: background;
     transition-duration: 2s;
     transform: scale(1);
-
+  
 
 }
 
@@ -825,9 +848,23 @@ margin-top: 300px;
     transition-property: all;
     transition-duration: 1s;
     font-size: 30px;
+    animation-duration: 3s;
+        animation-name: animacionproductos;
 
 
 }
+
+@keyframes animacionproductos {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .titulos__torta1 ul:hover{
 
@@ -867,9 +904,22 @@ margin-top: 300px;
     transition-property: all;
     transition-duration: 1s;
     font-size: 30px;
-
+    animation-duration: 3s;
+    animation-name: animacionproducto;
 
 }
+
+@keyframes animacionproducto {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .titulos__torta2 ul:hover{
 
