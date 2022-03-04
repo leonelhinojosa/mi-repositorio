@@ -87,25 +87,7 @@ footer{
 
 }
 
-.texto__tortasindex ul{
-    transition-property: all;
-    transition-duration: 1s;
 
-
-
-}
-
-.texto__tortaindex ul:hover{
-
-
-    background: rgb(193, 171, 204);
-
-}
-
-.bañoganache{
-
-    margin-left: 270px;
-}
 
 
 .carousel{
@@ -115,13 +97,7 @@ margin-top: 300px;
 
 }
 
-.tortas{
 
-    position: relative;
-    left: 50px;
-
-
-}
 
 @media screen and (min-width: 577px) {
 
@@ -180,13 +156,17 @@ margin-top: 300px;
     .texto__tortasindex {
 
         margin-left: 100px;
+       
     }
 
     .texto__tortasindex ul {
         color: rgb(77, 80, 79);
         display: flex;
         justify-content: space-between;
+        
     }
+
+    
 
     .baño__ganache {
         font-size: 50px;
@@ -197,8 +177,10 @@ margin-top: 300px;
 
     .texto__tortasindex .torta__agotada {
         position: relative;
+        
         font-size: 50px;
         margin-left: 200px;
+        
 
 
     }
@@ -235,7 +217,7 @@ margin-top: 300px;
         display: flex;
         justify-content: center;
         margin-top: 70px;
-        margin-left: 90px;
+        margin-left: 310px;
     }
 
     .secciones li {
@@ -307,14 +289,15 @@ margin-top: 300px;
     .baño__ganache {
         position: relative;
         font-size: 25px;
-        bottom: 15rem;
+        bottom: 25rem;
         right: 90px;
     }
 
     .texto__tortasindex .torta__agotada {
         position: relative;
         font-size: 25px;
-        bottom: 48.5rem;
+        bottom: 11rem;
+        right: 11rem;
     }
 
     .postres {
@@ -364,7 +347,23 @@ margin-top: 300px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     text-align: justify;
+    animation-duration: 3s;
+    animation-name: animacion4;
+
 }
+
+
+@keyframes animacion4 {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 
 .parrafo {
     padding: 50px;
@@ -550,7 +549,7 @@ margin-top: 300px;
 
 
 
-/*.tortas__ofertas{
+.tortas__ofertas{
 
     margin-left: 10px;
 
@@ -575,7 +574,7 @@ margin-top: 300px;
 
     
 
-}/*/
+}
 
 
 .torta__kinder {
@@ -612,7 +611,7 @@ margin-top: 300px;
 
 }
 
-/*.texto__torta1 li {
+.texto__torta1 li {
     width: 100px;
     transition-property: background;
     transition-duration: 2s;
@@ -621,11 +620,7 @@ margin-top: 300px;
 
 }
 
-.texto__torta1:hover{
-    
-    background: gold;
 
-}/*/
 
 .orden__textos:hover{
 
@@ -637,7 +632,7 @@ margin-top: 300px;
 
     position: relative;
     bottom: 130px;
-    left: 60px;
+    left: 10px;
 
 }
 
@@ -748,33 +743,27 @@ margin-top: 300px;
     .texto__torta1 {
 
         position: relative;
-        bottom: 155px;
+        bottom: 105px;
         margin-left: 180px;
         font-size: 15px;
-        color: rgb(100, 112, 124);
-    
-    
+        color: rgb(0, 0, 0);
+        animation-duration: 5s;
+        animation-name: animacion;
+        animation-iteration-count: infinite;
     }
     
-    .texto__torta2 {
-        text-align: center;
-        font-size: 15px;
-        color: rgb(100, 112, 124);
-        position: relative;
-        bottom: 35px;
+    @keyframes animacion {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
     
-    }
-    
-    
-    .texto__torta3 {
-
-        font-size: 15px;
-        color: rgb(100, 112, 124);
-        position: relative;
-        top: 85px;
-        margin-left: 170px;
-    
-    }
 
 
     .orden__textos{
@@ -943,7 +932,22 @@ margin-top: 300px;
         display: flex;
         justify-content: space-between;
         margin-left: 50px;
+        animation-duration: 3s;
+        animation-name: animacion2;
+        
     }
+
+    @keyframes animacion2 {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
 
 
     .titulos li {
@@ -975,8 +979,23 @@ margin-top: 300px;
         display: inline-block;
         position: relative;
         right: 40px;
+        animation-duration: 3s;
+        animation-name: animacion3;
+        
 
     }
+
+    @keyframes animacion3 {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
 
     .titulos2 li a {
 
