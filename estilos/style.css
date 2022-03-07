@@ -685,8 +685,7 @@ margin-top: 300px;
 
     .texto__torta1:hover{
 
-        background: rgb(143, 91, 70);
-
+        background: rgb(193, 171, 204);
 
 
     }
@@ -984,7 +983,15 @@ margin-top: 300px;
         margin-left: 50px;
         animation-duration: 3s;
         animation-name: animacion2;
-        
+        transition-property: background;
+        transition-duration: infinite;
+
+    }
+
+    .titulos__torta1:hover{
+
+        background: rgb(193, 171, 204);
+
     }
 
     @keyframes animacion2 {
