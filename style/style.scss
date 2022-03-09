@@ -1,13 +1,14 @@
+@import "variables";
+@import "general";
+@import "animacionproductos";
+@import "nav";
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
 
-* {
 
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
+
 
 
 header {
@@ -213,28 +214,7 @@ margin-top: 300px;
         bottom: 40px;
     }
 
-    .secciones {
-        display: flex;
-        justify-content: center;
-        margin-top: 70px;
-        margin-left: 310px;
-    }
-
-    .secciones li {
-
-        padding-top: 100px;
-        padding-right: 100px;
-        font-size: 13px;
-
-    }
-
-    .secciones li a {
-        text-decoration: none;
-        font-size: 10px;
-        color: rgb(255, 255, 255);
-        position: relative;
-        bottom: 270px;
-    }
+    
 
     .class-center {
 
@@ -837,38 +817,7 @@ margin-top: 300px;
 
 }
 
-.titulos__torta1 ul {
-    color: rgb(77, 80, 79);
-    display: flex;
-    justify-content: space-evenly;
 
-    position: relative;
-    bottom: 850px;
-    transition-property: all;
-    transition-duration: 1s;
-    font-size: 30px;
-    animation-duration: 3s;
-        animation-name: animacionproductos;
-
-
-}
-
-@keyframes animacionproductos {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-.titulos__torta1 ul:hover{
-
-    background: rgb(193, 171, 204);
-}
 .texto__tortaoreo {
     position: relative;
   
@@ -892,39 +841,7 @@ margin-top: 300px;
 }
 
 
-.titulos__torta2 ul {
 
-
-    color: rgb(77, 80, 79);
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    bottom: 450px;
-    transition-property: all;
-    transition-duration: 1s;
-    font-size: 30px;
-    animation-duration: 3s;
-    animation-name: animacionproducto;
-
-}
-
-@keyframes animacionproducto {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-.titulos__torta2 ul:hover{
-
-    background: rgb(193, 171, 204);
-
-}
 
 .helado {
 
@@ -947,12 +864,7 @@ margin-top: 300px;
 
 
 
-    body {
-
-        margin: 0;
-        width: 576px;
-        height: auto;
-    }
+    
 
     .imagenes__productosgrid {
 
