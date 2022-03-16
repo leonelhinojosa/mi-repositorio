@@ -5,7 +5,7 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
 
 
 
@@ -51,16 +51,16 @@ footer{
 }
 
 .class-center {
-    color: rgb(100, 112, 124);
+    /*/color: rgb(100, 112, 124);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 30px;
+    font-size: 30px;/*/
     display: flex;
     justify-content: center;
     position: relative;
     bottom: 150px;
 }
 
-.tipografia {
+/*/.tipografia {
     color: rgb(100, 112, 124);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
@@ -69,7 +69,7 @@ footer{
     display: flex;
     justify-content: center;
 
-}
+}/*/
 
 .imagen1 img {
 
@@ -81,12 +81,12 @@ footer{
 
 }
 
-.postres{
+/*/.postres{
 
     font-size: 50px;
     margin-left: 230px;
 
-}
+}/*/
 
 
 
@@ -98,6 +98,75 @@ margin-top: 300px;
 
 }
 
+.redes__facebook {
+    font-size: 20px;
+    color: red; }
+  
+  .redes__instragram {
+    font-size: 20px;
+    color: yellow; }
+  
+  .redes__twitter {
+    font-size: 20px;
+    color: violet; }
+  
+  .class-center, .tipografia {
+    color: #64707c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px; }
+  
+  .tipografia {
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: center; }
+  
+  .postres {
+    font-size: 50px;
+    margin-left: 230px; }
+
+// MAPAS
+
+$redes:(
+    facebook:red,
+    instragram: yellow,
+    twitter: violet,
+);
+
+@each $red, $col in $redes {
+    .redes__#{$red}{
+
+        font-size: 20px;
+        color: $col;
+    }
+
+}
+
+// EXTEND
+
+.class-center{
+    color: rgb(100, 112, 124);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.tipografia{
+    @extend .class-center;
+    position: relative;
+    bottom: 120px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+// MIXIND
+@mixin maf ($font-size, $margin-left) {
+    font-size: $font-size;
+    margin-left: $margin-left;
+}
+.postres{
+    @include maf(50px, 230px);
+}
 
 
 @media screen and (min-width: 577px) {
