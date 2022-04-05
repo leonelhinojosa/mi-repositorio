@@ -1,1 +1,0 @@
-Ordene los tamaños del encabezado, cambie todos los titulos del HTML menos el index, 
