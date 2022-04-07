@@ -1,4 +1,6 @@
-.tortas__ofertas{
+.tortas__ofertas
+
+{
 
     margin-left: 10px;
     .tortas__ofertas:hover{
@@ -63,7 +65,153 @@
                             transition-property: background;
                             transition-duration: 2s;
                             transform: scale(1);
-                          
+                            .carousel2{
+
+                                position: relative;
+                                bottom: 130px;
+                                left: 10px;
+
+                                @media (min-width: 577px){
+
+                                    .tortas__ofertas {
+                                        padding: 50px;
+                                        width: 500px;
+                                        height: 500px;
+                                        display: flex;
+                                        align-content: space-between;
+
+                                        .tortas__ofertas {
+                                            padding: 50px;
+                                            width: 500px;
+                                            height: 500px;
+                                            display: flex;
+                                            align-content: space-between;
+
+                                            .texto__torta1 {
+
+        
+                                                position: relative;
+                                                left: 45px;
+                                                font-size: 30px;
+                                                color: rgb(100, 112, 124);
+                                                transition-property: background;
+                                                transition-duration: infinite;
+
+                                                .texto__torta2 {
+                                                    text-align: center;
+                                                    font-size: 30px;
+                                                    color: rgb(100, 112, 124);
+                                                    position: relative;
+                                                    bottom: 35px;
+
+                                                    .texto__torta3 {
+                                                        text-align: right;
+                                                        margin-right: 30px;
+                                                        font-size: 30px;
+                                                        color: rgb(100, 112, 124);
+                                                        position: relative;
+                                                        bottom: 68px;
+
+                                                        @media (max-width: 576px){
+
+                                                            .tortas__ofertas {
+                                                                padding: 50px;
+                                                                width: 300px;
+                                                                height: 300px;
+                                                                display: flex;
+                                                                align-content: center;
+                                                                flex-direction: column;
+                                                                margin-left: 9rem;
+
+
+                                                                .tortas__ofertas img{
+
+                                                                    border-radius: 10px;
+
+
+                                                                    .torta__kinder {
+
+                                                                        display: block;
+                                                                        width: 150px;
+                                                                        height: 120px;
+                                                                        margin: auto;
+                                                                        position: relative;
+                                                                        bottom: 30px;
+
+
+                                                                        .torta__casamiento {
+                                                                            display: block;
+                                                                            margin: auto;
+                                                                            height: 150px;
+                                                                            width: 150px;
+
+                                                                            .tarta__frutilla {
+                                                                                display: block;
+                                                                                margin: auto;
+                                                                                width: 150px;
+                                                                                height: 150px;
+                                                                                position: relative;
+                                                                                top: 30px;
+
+
+                                                                                .texto__torta1 {
+
+                                                                                    position: relative;
+                                                                                    bottom: 105px;
+                                                                                    margin-left: 180px;
+                                                                                    font-size: 15px;
+                                                                                    color: rgb(0, 0, 0);
+                                                                                    animation-duration: 5s;
+                                                                                    animation-name: animacion;
+                                                                                    animation-iteration-count: infinite;
+
+
+                                                                                    @keyframes animacion {
+                                                                                        from {
+                                                                                          margin-left: 100%;
+                                                                                          width: 300%
+                                                                                        }
+                                                                                      
+                                                                                        to {
+                                                                                          margin-left: 0%;
+                                                                                          width: 100%;
+                                                                                        }
+                                                                                      }
+
+                                                                                        .orden__textos{
+
+                                                                                            display: flex;
+                                                                                            justify-content: center;
+                                                                                            flex-direction: column;
+                                                                                        }
+                                                                                      
+                                                                                      }
+                                                                                }
+                                                                                
+                                                                        
+                                                                            
+                                                                            }
+                                                                        
+                                                                        
+                                                                        }
+                                                                
+                                                                    
+                                                                    }
+                                                                }
+                                                            }
+                                                    
+                                                         }
+                                                
+                                                    }
+                                                
+                                                }
+                                        
+                                            
+                                            }
+                                        }
+                                    }
+                            
+                            }
                         
                         }
                     
@@ -89,210 +237,13 @@
 
 
 
-.tarta__frutilla {
-    width: 430px;
 
-    margin-left: 239px;
-
-}
-
-
-
-.orden__textos{
-
-    transition-property: all;
-    transition-duration: 2s;
-    
   
 
-}
 
-
-.texto__torta1{
-
-    animation-duration: 3s;
-    animation-name: animacionoferta;
-
-
-
-}
-
-@keyframes animacionoferta {
-    from {
-      margin-left: 100%;
-      width: 300%
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
-  }
-
-
-.texto__torta1 li {
-    width: 100px;
-    transition-property: background;
-    transition-duration: 2s;
-    transform: scale(1);
-  
-
-}
-
-
-
-.orden__textos:hover{
-
-    background: rgb(193, 171, 204);
-
-
-}
-.carousel2{
-
-    position: relative;
-    bottom: 130px;
-    left: 10px;
-
-}
-
-
-@media (min-width: 577px){
-
-    .tortas__ofertas {
-        padding: 50px;
-        width: 500px;
-        height: 500px;
-        display: flex;
-        align-content: space-between;
-    }
-
-    .texto__torta1 {
-
-        
-        position: relative;
-        left: 45px;
-        font-size: 30px;
-        color: rgb(100, 112, 124);
-        transition-property: background;
-        transition-duration: infinite;
-
-    
-    }
-
-    .texto__torta1:hover{
-
-        background: rgb(193, 171, 204);
-
-
-    }
-    
-    .texto__torta2 {
-        text-align: center;
-        font-size: 30px;
-        color: rgb(100, 112, 124);
-        position: relative;
-        bottom: 35px;
-    
-    }
-    
-    
-    .texto__torta3 {
-        text-align: right;
-        margin-right: 30px;
-        font-size: 30px;
-        color: rgb(100, 112, 124);
-        position: relative;
-        bottom: 68px;
-    
-    }
-
-}
-
-@media (max-width: 576px){
-
-    
-    .tortas__ofertas {
-        padding: 50px;
-        width: 300px;
-        height: 300px;
-        display: flex;
-        align-content: center;
-        flex-direction: column;
-        margin-left: 9rem;
-    }
-    .tortas__ofertas img{
-
-        border-radius: 10px;
-    }
-
-    .torta__kinder {
-
-        display: block;
-        width: 150px;
-        height: 120px;
-        margin: auto;
-        position: relative;
-        bottom: 30px;
-
-    
-    }
-    
-    .torta__casamiento {
-        display: block;
-        margin: auto;
-        height: 150px;
-        width: 150px;
-    
-    
-    }
-    
-    .tarta__frutilla {
-        display: block;
-        margin: auto;
-        width: 150px;
-        height: 150px;
-        position: relative;
-        top: 30px;
-
-    
-    }
-
-
-    .texto__torta1 {
-
-        position: relative;
-        bottom: 105px;
-        margin-left: 180px;
-        font-size: 15px;
-        color: rgb(0, 0, 0);
-        animation-duration: 5s;
-        animation-name: animacion;
-        animation-iteration-count: infinite;
-    }
-    
-    @keyframes animacion {
-        from {
-          margin-left: 100%;
-          width: 300%
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      }
-    
-
-
-    .orden__textos{
-
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
 
 
 
 
 
-}
+    
