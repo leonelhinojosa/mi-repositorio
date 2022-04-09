@@ -19,6 +19,9 @@ header {
   position: relative;
   left: 30px; }
 
+
+
+
 .secciones li a {
   position: relative;
   right: 100px; }
@@ -126,7 +129,7 @@ footer {
 @media screen and (max-width: 576px) {
   header {
     height: 120px;
-    width: 100%; }
+     }
   body {
     margin: 0;
     width: 576px;
