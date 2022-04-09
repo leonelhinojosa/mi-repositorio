@@ -188,26 +188,4 @@
     
     
    
-    .titulos li .baby {
-      position: relative;
-      right: 50rem; }
-    .titulos2 li {
-      display: inline-block;
-      position: relative;
-      right: 40px;
-      animation-duration: 3s;
-      animation-name: animacion3; }
-    @keyframes animacion3 {
-      from {
-        margin-left: 100%;
-        width: 300%; }
-      to {
-        margin-left: 0%;
-        width: 100%; } }
-    .titulos2 li a {
-      font-size: 15px;
-      position: relative;
-      top: 350px;
-      left: 40px;
-      margin: 29px; } 
-  
+    
