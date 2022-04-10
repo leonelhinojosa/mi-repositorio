@@ -1,191 +1,71 @@
 .imagenes__productosgrid {
-    display: grid;
-    grid-template-columns: 29% 29% 29%;
-    grid-template-rows: 29% 29% 29%;
-    gap: 8em;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 0;
-    padding: 50px; 
+  display: grid;
+  grid-template-columns: 29% 29% 29%;
+  grid-template-rows: 29% 29% 29%;
+  gap: 8em;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0;
+  padding: 50px;
 
-    .imagen img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 20px;
-    
-        .titulos__torta1 ul {
-            color: #4d504f;
-            display: flex;
-            justify-content: space-around;
-            position: relative;
-            bottom: 850px;
-            font-size: 30px;
-            animation-duration: 3s;
-            animation-name: animacionproductos;
-        
-            @keyframes animacionproductos {
-                from {
-                  margin-left: 100%;
-                  width: 300%; }
-                to {
-                  margin-left: 0%;
-                  width: 100%; } }
+  .imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
 
-
-                  .titulos__torta2 ul {
-                    color: #4d504f;
-                    display: flex;
-                    justify-content: space-around;
-                    position: relative;
-                    bottom: 450px;
-                    font-size: 30px;
-                    animation-duration: 3s;
-                    animation-name: animacionproducto; 
-                
-                    @keyframes animacionproducto {
-                        from {
-                          margin-left: 100%;
-                          width: 300%; }
-                        to {
-                          margin-left: 0%;
-                          width: 100%; } }
-
-
-                          @media screen and (max-width: 576px) {
-
-                            body {
-                                margin: 0;
-                                width: 576px;
-                                height: auto; 
-                            
-                                .imagenes__productosgrid {
-                                    display: grid;
-                                    grid-template-columns: 33% 33% 33%;
-                                    grid-template-rows: 33% 33% 33%;
-                                    gap: 6em;
-                                    position: relative;
-                                    right: 102px; 
-                                
-                                    .imagen img {
-                                        width: 120%;
-                                        height: 120%;
-                                        border-radius: 10px; 
-                                        
-                                        .titulos__torta1 ul {
-                                            display: flex;
-                                            justify-content: space-between;
-                                            margin-left: 50px;
-                                            animation-duration: 3s;
-                                            animation-name: animacion2;
-                                            transition-property: background;
-                                            transition-duration: infinite;
-                                            
-                                            .titulos__torta1:hover {
-                                                background: #c1abcc;
-                                                
-                                                @keyframes animacion2 {
-                                                    from {
-                                                      margin-left: 100%;
-                                                      width: 300%; }
-                                                    to {
-                                                      margin-left: 0%;
-                                                      width: 100%; } }
-
-
-                                                      .titulos li {
-                                                        display: inline-block;
-                                                        position: relative;
-                                                        right: 15px; 
-                                                    
-                                                        .titulos li a {
-                                                            font-size: 15px;
-                                                            position: relative;
-                                                            top: 550px;
-                                                            left: 10px;
-                                                            margin: 11px;
-                                                        
-                                                            .titulos li .baby {
-                                                                position: relative;
-                                                                right: 50rem;
-                                                            
-                                                                .titulos2 li {
-                                                                    display: inline-block;
-                                                                    position: relative;
-                                                                    right: 40px;
-                                                                    animation-duration: 3s;
-                                                                    animation-name: animacion3; 
-                                                                
-                                                                
-                                                                    @keyframes animacion3 {
-                                                                        from {
-                                                                          margin-left: 100%;
-                                                                          width: 300%; }
-                                                                        to {
-                                                                          margin-left: 0%;
-                                                                          width: 100%; } }
-
-
-
-                                                                          .titulos2 li a {
-                                                                            font-size: 15px;
-                                                                            position: relative;
-                                                                            top: 350px;
-                                                                            left: 40px;
-                                                                            margin: 29px; } }
-                                                                
-                                                                }
-                                                            
-                                                            
-                                                            }
-                                                        
-                                                        }
-                                                    
-                                                    }
-
-
-
-                                                
-                                            }
-                                        
-                                        }
-                                    
-                                    }
-                                
-                                }
-                            
-                            }
-                
-                }
-        
-        
-        }
-          
-    }
-      
 }
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-    
-   
-    
-    
-   
-    
+
+
+.titulos__torta1 ul {
+  color: #4d504f;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 850px;
+  font-size: 30px;
+  animation-duration: 3s;
+  animation-name: animacionproductos;
+}
+
+@keyframes animacionproductos {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+.titulos__torta2 ul {
+  color: #4d504f;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  bottom: 450px;
+  font-size: 30px;
+  animation-duration: 3s;
+  animation-name: animacionproducto;
+}
+
+@keyframes animacionproducto {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
