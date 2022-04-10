@@ -345,7 +345,7 @@ footer {
   width: 20%;
   height: 150px;
   border-radius: 20px;
-  margin-left: 47.5rem;
+  margin-left: 47.8rem;
   position: relative;
   top: 40px; 
 }
@@ -387,24 +387,46 @@ footer {
   .form {
     padding: 50px;
     margin-left: 50px; }
+
+    
+
+    .nombre{
+
+      margin-right: 2.5rem;
+
+    }
+
+    .apellido{
+
+      margin-right: 2.5rem;
+
+    }
+    
+    .email{
+
+
+      margin-right: 2.5rem;
+
+    }
+
   .titulo {
     position: relative;
     top: 20px;
-    margin-left: 80px;
+    margin-left: 50px;
     padding: 45px;
     color: #64707c; }
 
   .caja{
     background-color: #dfd0d2;
     margin-top: 30px;
-    margin-left: 120px;
+    margin-left: 80px;
     border-radius: 25px;
-    width: 200px;
+    width: 55%;
   }
 
   .mensaje{
     width: 180px;
-    margin-left: 125px;
+    margin-left: 100px;
 
   }
 
@@ -615,10 +637,9 @@ footer {
     margin-left: 50px;
     animation-duration: 3s;
     animation-name: animacion2;
-    transition-property: background;
+   
     transition-duration: infinite; }
-  .titulos__torta1:hover {
-    background: #c1abcc; }
+  
   @keyframes animacion2 {
     from {
       margin-left: 100%;
