@@ -1,0 +1,21 @@
+.texto__torta {
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: animacionoferta; }
+  
+  @keyframes animacionoferta {
+    from {
+      margin-left: 100%;
+      width: 300%; }
+    to {
+      margin-left: 0%;
+      width: 100%; } }
+  
+  
+  
+  .carousel2 {
+    position: relative;
+    bottom: 130px;
+    left: 10px; }

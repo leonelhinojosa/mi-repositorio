@@ -1,0 +1,153 @@
+.titulo {
+
+    margin-right: 1em;
+
+
+}
+
+.form {
+
+    .nombre {
+
+        margin-right: 2.5rem;
+
+    }
+
+    .apellido {
+
+        margin-right: 2.5rem;
+
+    }
+
+    .email {
+
+
+        margin-right: 2.5rem;
+
+    }
+
+    .nombre {
+
+        position: relative;
+        top: 1em;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        color: #64707c;
+        font-size: 25px;
+    }
+
+    .caja {
+
+        width: 20%;
+        height: 45px;
+        border-radius: 25px;
+        position: relative;
+        top: 1.3em;
+        left: 20px;
+        background-color: #dfd0d2;
+    }
+
+
+
+
+    .texto__nombre {
+        background-color: #dfd0d2;
+        width: 20%;
+        height: 45px;
+        border-radius: 25px;
+        margin-left: 46.2rem;
+        position: relative;
+        top: 1.3em;
+        left: 20px;
+    }
+
+    .apellido {
+        position: relative;
+        top: 1em;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        color: #64707c;
+        font-size: 25px;
+    }
+
+    .texto__apellido {
+        background-color: #dfd0d2;
+        width: 20%;
+        height: 45px;
+        border-radius: 25px;
+        margin-left: 46.3rem;
+        position: relative;
+        top: 1.3em;
+        left: 20px;
+    }
+
+    .email {
+
+        position: relative;
+        top: 1em;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        color: #64707c;
+        font-size: 25px;
+    }
+
+    .form-input {
+        background-color: #dfd0d2;
+        width: 20%;
+        height: 45px;
+        border-radius: 25px;
+        margin-left: 46rem;
+        position: relative;
+        top: 1rem;
+        left: 20px;
+    }
+
+    .mensaje {
+        background-color: #dfd0d2;
+        width: 20%;
+        height: 150px;
+        border-radius: 20px;
+        margin-left: 47.5rem;
+        position: relative;
+        top: 40px;
+    }
+
+
+
+
+    .botones {
+
+        .boton__enviar {
+            height: 30px;
+            width: 110px;
+            margin-left: 50rem;
+            display: block;
+            border-radius: 5px;
+            position: relative;
+            top: 3rem;
+            background-color: black;
+            color: #f1f1f1;
+
+        }
+
+        .boton__resetear {
+            height: 30px;
+            width: 110px;
+            color: #f1f1f1;
+            background-color: black;
+            margin-left: 62rem;
+            display: block;
+            border-radius: 5px;
+            position: relative;
+            top: 1.1rem;
+
+
+        }
+
+
+    }
+
+}
