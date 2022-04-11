@@ -48,20 +48,6 @@
         background-color: #dfd0d2;
     }
 
-
-
-
-    .texto__nombre {
-        background-color: #dfd0d2;
-        width: 20%;
-        height: 45px;
-        border-radius: 25px;
-        margin-left: 46.2rem;
-        position: relative;
-        top: 1.3em;
-        left: 20px;
-    }
-
     .apellido {
         position: relative;
         top: 1em;
@@ -72,16 +58,6 @@
         font-size: 25px;
     }
 
-    .texto__apellido {
-        background-color: #dfd0d2;
-        width: 20%;
-        height: 45px;
-        border-radius: 25px;
-        margin-left: 46.3rem;
-        position: relative;
-        top: 1.3em;
-        left: 20px;
-    }
 
     .email {
 
@@ -94,16 +70,17 @@
         font-size: 25px;
     }
 
-    .form-input {
-        background-color: #dfd0d2;
+    .caja {
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
         width: 20%;
         height: 45px;
         border-radius: 25px;
-        margin-left: 46rem;
         position: relative;
-        top: 1rem;
-        left: 20px;
-    }
+        top: 1.3em;
+        background-color: #dfd0d2;
+      }
 
     .mensaje {
         background-color: #dfd0d2;

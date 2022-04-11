@@ -1,76 +1,12 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box; }
-
-body {
-  margin: 0;
-  width: 576px;
-  height: auto; }
-
-.titulos__torta1 ul {
-  color: #4d504f;
-  display: flex;
-  justify-content: space-evenly;
-  position: relative;
-  bottom: 850px;
-  transition-property: all;
-  transition-duration: 1s;
-  font-size: 30px;
-  animation-duration: 3s;
-  animation-name: animacionproductos; }
-
-@keyframes animacionproductos {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
-  .titulos__torta1 ul :hover {
-    background: #c1abcc; }
-
-.titulos__torta2 ul {
-  color: #4d504f;
-  display: flex;
-  justify-content: space-evenly;
-  position: relative;
-  bottom: 450px;
-  transition-property: all;
-  transition-duration: 1s;
-  font-size: 30px;
-  animation-duration: 3s;
-  animation-name: animacionproducto; }
-
-@keyframes animacionproducto {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
-  .titulos__torta2 ul :hover {
-    background: #c1abcc; }
-
-.secciones {
-  display: flex;
-  justify-content: center;
-  margin-top: 70px;
-  margin-left: 310px; }
-  .secciones li {
-    padding-top: 100px;
-    padding-right: 100px;
-    font-size: 13px; }
-    .secciones li a {
-      text-decoration: none;
-      font-size: 10px;
-      color: white;
-      position: relative;
-      bottom: 270px; }
+  box-sizing: border-box;
+}
 
 header {
   height: 16rem;
@@ -78,29 +14,34 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: cover;
-  padding: 80px 0; }
+  padding: 80px 0;
+}
 
 .logo {
   position: relative;
-  left: 30px; }
+  left: 30px;
+}
 
 
 
 
 .secciones li a {
   position: relative;
-  right: 100px; }
+  right: 100px;
+}
 
 body {
   background-color: #0a0708;
-  height: auto; }
+  height: auto;
+}
 
 footer {
   color: white;
   font-size: 20px;
   padding: 20px;
   margin-top: 50px;
-  background-color: #64707c; }
+  background-color: #64707c;
+}
 
 .class-center {
   color: #64707c;
@@ -109,7 +50,8 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 150px; }
+  bottom: 150px;
+}
 
 .tipografia {
   color: #64707c;
@@ -118,20 +60,23 @@ footer {
   position: relative;
   bottom: 120px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .imagen1 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 20px; }
+  border-radius: 20px;
+}
 
 .postres {
   font-size: 50px;
-  margin-left: 230px; }
+  margin-left: 230px;
+}
 
 
-.tortas{
+.tortas {
   font-size: 3rem;
   display: flex;
   justify-content: center;
@@ -139,10 +84,11 @@ footer {
 }
 
 .carousel {
-  margin-top: 300px; }
+  margin-top: 300px;
+}
 
-  
-  
+
+
 
 @media screen and (min-width: 577px) {
   .logo {
@@ -153,13 +99,17 @@ footer {
     align-content: flex-start;
     justify-content: center;
     position: relative;
-    bottom: 20px; }
+    bottom: 20px;
+  }
+
   .secciones li {
     display: inline-block;
     padding: 100px;
     margin: 0px;
     margin-left: 63px;
-    font-size: 13px; }
+    font-size: 13px;
+  }
+
   .secciones li a {
     text-decoration: none;
     display: flex;
@@ -168,7 +118,9 @@ footer {
     color: white;
     position: relative;
     bottom: 270px;
-    left: 125px; }
+    left: 125px;
+  }
+
   .imagenes__tortasgrid {
     display: grid;
     grid-template-columns: 29% 29% 29%;
@@ -176,120 +128,148 @@ footer {
     margin-left: 170px;
     margin-right: 100px;
     margin-top: 300px;
-    padding: 5px; }
+    padding: 5px;
+  }
+
   .texto__tortasindex {
-    margin-left: 100px; }
+    margin-left: 100px;
+  }
+
   .texto__tortasindex ul {
     color: #4d504f;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+  }
+
   .baño__ganache {
     font-size: 50px;
-    margin-right: 130px; }
+    margin-right: 130px;
+  }
+
   .texto__tortasindex .torta__agotada {
     position: relative;
     font-size: 50px;
-    margin-left: 200px; } }
+    margin-left: 200px;
+  }
+}
 
 @media screen and (max-width: 576px) {
   header {
     height: 120px;
-     }
+  }
+
   body {
+    overflow-x: hidden;
     margin: 0;
     width: 100%;
-    height: auto; }
+    height: auto;
+  }
+
   .logo {
-    display: block;
-    margin: auto;
+
     height: 5rem;
     width: 5em;
     position: relative;
-    bottom: 40px; }
-<<<<<<< HEAD
-=======
+    bottom: 40px;
 
-  
+  }
+
+
   .secciones {
+
     display: flex;
-    justify-content: space-around;
-    margin-top: 70px;
-    margin-left: 310px; }
+    justify-content: flex-end;
+    margin-top: 75px;
+  }
+
   .secciones li {
+
     padding-top: 100px;
-    padding-right: 100px;
-    font-size: 13px; }
+    font-size: 13px;
+  }
+
   .secciones li a {
     text-decoration: none;
     font-size: 10px;
     color: white;
+    margin: 15px;
     position: relative;
-    bottom: 270px; }
->>>>>>> rama1
+    bottom: 250px;
+  }
+
   .class-center {
     font-size: 25px;
-    position: relative;
-    left: 15px; }
+  }
+
   .tipografia {
     font-size: 20px;
-    margin-left: 10px; }
+  }
+
   .ordenar {
     display: flex;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+  }
+
   .imagen1 img {
     width: 220px;
-    height: 220px; 
-   
+    height: 220px;
+
 
   }
-  .imagenes__tortasgrid {
-    display: grid;
-    grid-template-columns: 29%;
-    grid-template-rows: 29% 29% 29%;
-    gap: 4em;
-    margin-top: 180px;
-    margin-left: 180px; 
-  
 
-  }
   .texto__tortasindex {
-    margin: 220px 0 0 240px; }
+    margin: 220px 0 0 240px;
+  }
+
   .texto__tortasindex ul {
     color: #4d504f;
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     flex-direction: column;
-    margin-bottom: 200px; }
+    margin-bottom: 200px;
+  }
+
   .baño__ganache {
     position: relative;
     font-size: 25px;
     bottom: 25rem;
-    right: 90px; }
+    right: 90px;
+  }
+
   .texto__tortasindex .torta__agotada {
     position: relative;
     font-size: 25px;
     bottom: 11rem;
-    right: 11rem; }
+    right: 11rem;
+  }
+
   .postres {
     position: relative;
     font-size: 25px;
-    bottom: 32rem; }
+    bottom: 32rem;
+  }
 
-    .tortas{
-      margin-right: 1.5rem;
-      display: flex;
-      justify-content: center;
-      font-size: 2em;
+  .tortas {
+    margin-right: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
 
 
 
-    }
+  }
+
   footer {
     padding: 1em 0;
     width: 100%;
     position: relative;
-    top: 55px; } }
+    top: 55px;
+  }
+}
+
+
+
 
 /* Secciones-nosotros/*/
 .nosotros__h1 {
@@ -297,14 +277,16 @@ footer {
   font-size: 35px;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #64707c; }
+  color: #64707c;
+}
 
 .class-h2 {
   padding: 30px;
   font-size: 35px;
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #d41d1d; }
+  color: #d41d1d;
+}
 
 .info__h3 {
   padding: 100px;
@@ -314,15 +296,20 @@ footer {
   text-align: center;
   text-align: justify;
   animation-duration: 3s;
-  animation-name: animacion4; }
+  animation-name: animacion4;
+}
 
 @keyframes animacion4 {
   from {
     margin-left: 100%;
-    width: 300%; }
+    width: 300%;
+  }
+
   to {
     margin-left: 0%;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 .parrafo {
   padding: 50px;
@@ -333,7 +320,8 @@ footer {
   display: block;
   position: relative;
   bottom: 50px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .class__p {
   color: #d41d1d;
@@ -341,21 +329,27 @@ footer {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   position: relative;
-  bottom: 75px; }
+  bottom: 75px;
+}
 
 @media (max-width: 576px) {
   .info__h3 {
-    font-size: 23px; } }
+    font-size: 23px;
+  }
+}
+
 
 /*seccion CONTACTO/*/
 
 
-.titulo{
+.titulo {
 
   margin-right: 1em;
 
 
 }
+
+
 
 
 .nombre {
@@ -366,45 +360,47 @@ footer {
   justify-content: center;
   padding: 15px;
   color: #64707c;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
-  .caja{
-    margin-top: 1rem;
-    margin-left: 48rem;
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: 45px;
-    border-radius: 25px;
-    
-     background-color: #dfd0d2;
-  }
-    
+.caja {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  width: 20%;
+  height: 45px;
+  border-radius: 25px;
+  position: relative;
+  top: 1.3em;
+  background-color: #dfd0d2;
+}
 
-  
+
+
 
 
 
 .apellido {
   position: relative;
-  top: 1em;
+  top: 1.5em;
   display: flex;
   justify-content: center;
   padding: 15px;
   color: #64707c;
-  font-size: 25px; }
-
+  font-size: 25px;
+}
 
 
 .email {
-  
+
   position: relative;
-  top: 1em;
+  top: 3.5rem;
   display: flex;
   justify-content: center;
   padding: 15px;
   color: #64707c;
-  font-size: 25px; }
+  font-size: 25px;
+}
 
 
 
@@ -413,9 +409,9 @@ footer {
   width: 20%;
   height: 150px;
   border-radius: 20px;
-  margin-left: 47.8rem;
+  margin-left: 47.5rem;
   position: relative;
-  top: 40px; 
+  top: 40px;
 }
 
 .boton__enviar {
@@ -427,7 +423,8 @@ footer {
   position: relative;
   top: 3rem;
   background-color: black;
-  color: #f1f1f1; }
+  color: #f1f1f1;
+}
 
 .boton__resetear {
   height: 30px;
@@ -449,61 +446,53 @@ footer {
     top: 20px;
     margin-left: 35px;
     padding: 45px;
-    color: #64707c; } }
+    color: #64707c;
+  }
+}
 
 @media (max-width: 576px) {
   .form {
     padding: 50px;
-    margin-left: 50px; }
-
-    
-
-    .nombre{
-
-      margin-right: 2.5rem;
-
-    }
-
-    .apellido{
-
-      margin-right: 2.5rem;
-
-    }
-    
-    .email{
-
-
-      margin-right: 2.5rem;
-
-    }
+    margin-left: 50px;
+  }
 
   .titulo {
     position: relative;
     top: 20px;
-    margin-left: 50px;
-    padding: 45px;
-    color: #64707c; }
-
-  .caja{
-    background-color: #dfd0d2;
-    margin-top: 30px;
     margin-left: 80px;
-    border-radius: 25px;
-    width: 55%;
+    padding: 45px;
+    color: #64707c;
   }
 
-  .mensaje{
+  .caja {
+    background-color: #dfd0d2;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 25px;
+    width: 200px;
+  }
+
+  .mensaje {
     width: 180px;
-    margin-left: 100px;
+    margin-left: 125px;
 
   }
 
   .boton__enviar {
+    width: 4rem;
     position: relative;
-    right: 30px; }
+    right: 42rem;
+  }
+
   .boton__resetear {
+    height: 2rem;
+    width: 5rem;
     position: relative;
-    left: 80px; } }
+    right: 47rem;
+  }
+}
+
+
 
 /*SECCION OFERTAS/*/
 
@@ -514,22 +503,28 @@ footer {
   display: flex;
   justify-content: center;
   animation-duration: 3s;
-  animation-name: animacionoferta; }
+  animation-name: animacionoferta;
+}
 
 @keyframes animacionoferta {
   from {
     margin-left: 100%;
-    width: 300%; }
+    width: 300%;
+  }
+
   to {
     margin-left: 0%;
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 
 
 .carousel2 {
   position: relative;
   bottom: 130px;
-  left: 10px; }
+  left: 10px;
+}
 
 @media (min-width: 577px) {
   .tortas__ofertas {
@@ -537,27 +532,33 @@ footer {
     width: 500px;
     height: 500px;
     display: flex;
-    align-content: space-between; }
+    align-content: space-between;
+  }
+
   .texto__torta1 {
     position: relative;
     left: 45px;
     font-size: 30px;
     color: #64707c;
-    }
-  
+  }
+
   .texto__torta2 {
     text-align: center;
     font-size: 30px;
     color: #64707c;
     position: relative;
-    bottom: 35px; }
+    bottom: 35px;
+  }
+
   .texto__torta3 {
     text-align: right;
     margin-right: 30px;
     font-size: 30px;
     color: #64707c;
     position: relative;
-    bottom: 68px; } }
+    bottom: 68px;
+  }
+}
 
 @media (max-width: 576px) {
   .tortas__ofertas {
@@ -567,28 +568,38 @@ footer {
     display: flex;
     align-content: center;
     flex-direction: column;
-    margin-left: 9rem; }
+    margin-left: 9rem;
+  }
+
   .tortas__ofertas img {
-    border-radius: 10px; }
+    border-radius: 10px;
+  }
+
   .torta__kinder {
     display: block;
     width: 150px;
     height: 120px;
     margin: auto;
     position: relative;
-    bottom: 30px; }
+    bottom: 30px;
+  }
+
   .torta__casamiento {
     display: block;
     margin: auto;
     height: 150px;
-    width: 150px; }
+    width: 150px;
+  }
+
   .tarta__frutilla {
     display: block;
     margin: auto;
     width: 150px;
     height: 150px;
     position: relative;
-    top: 30px; }
+    top: 30px;
+  }
+
   .texto__torta1 {
     position: relative;
     bottom: 105px;
@@ -597,160 +608,194 @@ footer {
     color: black;
     animation-duration: 5s;
     animation-name: animacion;
-    animation-iteration-count: infinite; }
+    animation-iteration-count: infinite;
+  }
+
   @keyframes animacion {
     from {
       margin-left: 100%;
-      width: 300%; }
+      width: 300%;
+    }
+
     to {
       margin-left: 0%;
-      width: 100%; } }
+      width: 100%;
+    }
+  }
+
   .orden__textos {
     display: flex;
     justify-content: center;
-    flex-direction: column; } }
-
-/*SECCION PRODUCTOS/*/
-/* footer {
-    width: 110%;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    padding: 5px;
-
-    margin-top: 50px;
-
-    background-color: rgb(100, 112, 124);
-
-} */
-.imagenes__productosgrid {
-  display: grid;
-  grid-template-columns: 29% 29% 29%;
-  grid-template-rows: 29% 29% 29%;
-  gap: 8em;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 0;
-  padding: 50px; }
-
-.imagen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 20px; }
-
-<<<<<<< HEAD
-.texto__tortaoreo {
-  position: relative; }
-=======
-.titulos__torta1 ul {
-  color: #4d504f;
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  bottom: 850px;
-  font-size: 30px;
-  animation-duration: 3s;
-  animation-name: animacionproductos; }
-
-@keyframes animacionproductos {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
-
-
->>>>>>> rama1
+    flex-direction: column;
+  }
 
 
 
 
 
-<<<<<<< HEAD
-.helado {
-  position: relative;
-  right: 50px; }
-=======
-.titulos__torta2 ul {
-  color: #4d504f;
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  bottom: 450px;
-  font-size: 30px;
-  animation-duration: 3s;
-  animation-name: animacionproducto; }
-
-@keyframes animacionproducto {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
 
 
->>>>>>> rama1
+  /*SECCION PRODUCTOS/*/
 
-
-@media screen and (max-width: 576px) {
   .imagenes__productosgrid {
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 33% 33% 33%;
-    gap: 6em;
-    position: relative;
-    right: 102px; }
+    grid-template-columns: 29% 29% 29%;
+    grid-template-rows: 29% 29% 29%;
+    gap: 8em;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 0;
+    padding: 50px;
+  }
+
   .imagen img {
-    width: 120%;
-    height: 120%;
-    border-radius: 10px; }
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+
   .titulos__torta1 ul {
+    color: #4d504f;
     display: flex;
-    justify-content: space-between;
-    margin-left: 50px;
+    justify-content: space-around;
+    position: relative;
+    bottom: 850px;
+    font-size: 30px;
     animation-duration: 3s;
-    animation-name: animacion2;
-   
-    transition-duration: infinite; }
-  
-  @keyframes animacion2 {
+    animation-name: animacionproductos;
+  }
+
+  @keyframes animacionproductos {
     from {
       margin-left: 100%;
-      width: 300%; }
+      width: 300%;
+    }
+
     to {
       margin-left: 0%;
-      width: 100%; } }
-  .titulos li {
-    display: inline-block;
+      width: 100%;
+    }
+  }
+
+
+
+
+
+
+
+  .titulos__torta2 ul {
+    color: #4d504f;
+    display: flex;
+    justify-content: space-around;
     position: relative;
-    right: 15px; }
-  .titulos li a {
-    font-size: 15px;
-    position: relative;
-    top: 550px;
-    left: 10px;
-    margin: 11px; }
-  .titulos li .baby {
-    position: relative;
-    right: 50rem; }
-  .titulos2 li {
-    display: inline-block;
-    position: relative;
-    right: 40px;
+    bottom: 450px;
+    font-size: 30px;
     animation-duration: 3s;
-    animation-name: animacion3; }
-  @keyframes animacion3 {
+    animation-name: animacionproducto;
+  }
+
+  @keyframes animacionproducto {
     from {
       margin-left: 100%;
-      width: 300%; }
+      width: 300%;
+    }
+
     to {
       margin-left: 0%;
-      width: 100%; } }
-  .titulos2 li a {
-    font-size: 15px;
-    position: relative;
-    top: 350px;
-    left: 40px;
-    margin: 29px; } }
+      width: 100%;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 576px) {
+    body {
+      margin: 0;
+      width: 576px;
+      height: auto;
+    }
+
+    .imagenes__productosgrid {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      grid-template-rows: 33% 33% 33%;
+      gap: 6em;
+      position: relative;
+      right: 102px;
+    }
+
+    .imagen img {
+      width: 120%;
+      height: 120%;
+      border-radius: 10px;
+    }
+
+    .titulos__torta1 ul {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 50px;
+      animation-duration: 3s;
+      animation-name: animacion2;
+    }
+
+    @keyframes animacion2 {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+    .titulos li {
+      display: inline-block;
+      position: relative;
+      right: 15px;
+    }
+
+    .titulos li a {
+      font-size: 15px;
+      position: relative;
+      top: 550px;
+      left: 10px;
+      margin: 11px;
+    }
+
+    .titulos li .baby {
+      position: relative;
+      right: 50rem;
+    }
+
+    .titulos2 li {
+      display: inline-block;
+      position: relative;
+      right: 40px;
+      animation-duration: 3s;
+      animation-name: animacion3;
+    }
+
+    @keyframes animacion3 {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+
+    .titulos2 li a {
+      font-size: 15px;
+      position: relative;
+      top: 350px;
+      left: 40px;
+      margin: 29px;
+    }
+  }
