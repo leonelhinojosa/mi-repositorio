@@ -79,8 +79,10 @@ footer {
 .tortas {
   font-size: 3rem;
   display: flex;
-  justify-content: center;
-
+  position: relative;
+  left: 21.5rem;
+  color: #64707c;
+  text-decoration: none;
 }
 
 .carousel {
@@ -645,15 +647,13 @@ footer {
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 0;
-    padding: 50px;
-  }
-
+    padding: 50px; }
+  
   .imagen img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 20px;
-  }
+    border-radius: 20px; }
 
   .titulos__torta1 ul {
     color: #4d504f;
@@ -664,6 +664,7 @@ footer {
     font-size: 30px;
     animation-duration: 3s;
     animation-name: animacionproductos;
+    text-decoration: none;
   }
 
   @keyframes animacionproductos {
@@ -679,11 +680,6 @@ footer {
   }
 
 
-
-
-
-
-
   .titulos__torta2 ul {
     color: #4d504f;
     display: flex;
@@ -693,6 +689,7 @@ footer {
     font-size: 30px;
     animation-duration: 3s;
     animation-name: animacionproducto;
+    text-decoration: none;
   }
 
   @keyframes animacionproducto {
@@ -798,4 +795,4 @@ footer {
       left: 40px;
       margin: 29px;
     }
-  }
+}}
